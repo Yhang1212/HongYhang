@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>YHANG</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">hong<span>Yhang</span></div>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Resume</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-cta" id="resumeCta">Resume</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="hero fade-up">
+      <div class="hero-content">
+        <h1 class="hero-title">Crafting Digital <span class="highlight">Experiences</span> That Inspire</h1>
+        <p class="hero-subtitle">I'm Yhang — front-end developer & creative problem solver. I build sleek, responsive web apps that leave a lasting impression.</p>
+        <div class="hero-buttons">
+          <button class="cta-button primary" id="getStartedBtn">Get Started</button>
+          <button class="cta-button secondary" id="viewWorkBtn">View Work</button>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><h3>2</h3><p>Projects</p></div>
+          <div class="stat"><h3>internship</h3><p>Years Craft</p></div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="floating-card card1"><i class="fas fa-laptop-code" style="color:#b76e4b;"></i> Web Dev</div>
+        <div class="floating-card card2"><i class="fas fa-mobile-alt" style="color:#b76e4b;"></i> Mobile First</div>
+        <div class="floating-card card3"><i class="fas fa-palette" style="color:#b76e4b;"></i> UI/UX</div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about fade-up">
+      <div class="section-header">
+        <h2 class="section-title">About <span class="highlight">Me</span></h2>
+        <p class="section-subtitle">Creative developer with a passion for modern design</p>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <h3>I turn ideas into <span class="accent">digital realities</span></h3>
+          <p>Hi, I'm Yhang — a dedicated web developer who loves blending smooth animations with clean code. I focus on performance, accessibility, and delightful user experiences.</p>
+          <ul class="features">
+            <li><i class="fas fa-check-circle"></i> 15+ modern projects completed</li>
+            <li><i class="fas fa-check-circle"></i> Expert in responsive layouts</li>
+            <li><i class="fas fa-check-circle"></i> Tailwind / CSS / React ready</li>
+            <li><i class="fas fa-check-circle"></i> Fast & interactive prototypes</li>
+          </ul>
+          <button class="learn-more" id="contactFromAbout">Contact me →</button>
+        </div>
+        <div class="about-image">
+          <div class="about-card">
+            <img src="https://i.ibb.co/yckLBXp0/photo-2026-02-03-21-33-39.jpg" alt="Yhang profile" style="width:100%;max-width:280px;border-radius:4px;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services fade-up">
+      <div class="section-header">
+        <h2 class="section-title">My <span class="highlight">Services</span></h2>
+        <p class="section-subtitle">What I deliver to boost your brand</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card"><div class="service-icon"><i class="fas fa-code"></i></div><h3>Web Development</h3><p>Custom, lightning-fast websites using modern frameworks.</p><a href="#" class="service-link">Learn More →</a></div>
+        <div class="service-card"><div class="service-icon"><i class="fas fa-paint-brush"></i></div><h3>UI/UX Design</h3><p>User-first interfaces with micro-interactions.</p><a href="#" class="service-link">Learn More →</a></div>
+        <div class="service-card"><div class="service-icon"><i class="fas fa-shopping-cart"></i></div><h3>E-commerce</h3><p>Shopify / custom online stores.</p><a href="#" class="service-link">Learn More →</a></div>
+        <div class="service-card"><div class="service-icon"><i class="fas fa-chart-line"></i></div><h3>Performance SEO</h3><p>Speed optimization & semantic markup.</p><a href="#" class="service-link">Learn More →</a></div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="resume-education fade-up">
+      <div class="section-header" style="text-align: left; margin-bottom: 2rem;">
+        <h2 class="section-title">Education & <span class="highlight">Experience</span></h2>
+      </div>
+      <div class="education-list">
+        <p><i class="fas fa-graduation-cap"></i> <strong>2016 - 2021:</strong> General K12 Education at Chea Sim Samaki Highschool</p>
+        <p><i class="fas fa-laptop-code"></i> <strong>2022 – 2024:</strong> Coding & Programming with Python (Gdemy short course)</p>
+        <p><i class="fas fa-university"></i> <strong>2021 - 2026:</strong> Information Technology at Royal University of Phnom Penh · Research, design, and prototype effective websites and apps.</p>
+      </div>
+    </section>
+
+    <!-- TOOLS -->
+    <section class="tools-section fade-up">
+      <h2 style="font-size: 2rem; margin-bottom: 0.5rem; font-family: 'Playfair Display', serif;">My favourite <span class="highlight">Framework & Tools</span></h2>
+      <div class="tools-grid">
+        <div class="tool-item"><i class="fab fa-git-alt"></i> Git</div>
+        <div class="tool-item"><i class="fab fa-telegram-plane"></i> Telegram API</div>
+        <div class="tool-item"><i class="fab fa-docker"></i> Docker</div>
+        <div class="tool-item"><i class="fab fa-react"></i> React</div>
+        <div class="tool-item"><i class="fas fa-database"></i> Database</div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials fade-up">
+      <div class="section-header">
+        <h2 class="section-title">Client <span class="highlight">Love</span></h2>
+        <p class="section-subtitle">What people say about working with me</p>
+      </div>
+      <div class="testimonials-container">
+        <div class="testimonial-card">
+          <p>"Yhang built our agency site with incredible attention to detail. The animations feel premium."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="client">
+            <div><h4>Michael Chen</h4><p>Creative Director</p></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p>"My portfolio got a 200% engagement boost after the redesign. Super creative!"</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="client">
+            <div><h4>Priya Sharma</h4><p>Startup Founder</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact fade-up">
+      <div class="section-header">
+        <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+        <p class="section-subtitle">Let's build something great together</p>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-item"><i class="fas fa-map-marker-alt"></i><div><h4>Location</h4><p>Phnom Penh, Cambodia</p></div></div>
+          <div class="contact-item"><i class="fas fa-phone"></i><div><h4>Phone</h4><p>+855 95 925 737</p></div></div>
+          <div class="contact-item"><i class="fas fa-envelope"></i><div><h4>Email</h4><p>Mrhang8760@gmail.com</p></div></div>
+        </div>
+        <form class="contact-form" id="demoForm">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <input type="text" placeholder="Subject">
+          <textarea placeholder="Tell me about your project..." rows="4" required></textarea>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <div class="logo">hong<span>Yhang</span></div>
+        <p>Creative developer focused on modern minimalism.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Newsletter</h4>
+        <p>Get design insights</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="your@email.com">
+          <button type="button"><i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom" style="text-align:center; margin-top:2rem;">
+      <p>© 2025 Yhang · Designed with <i class="fas fa-heart" style="color:#b76e4b;"></i> Clean & minimal</p>
+    </div>
+  </footer>
+
+  <script src="java.js"></script>
+</body>
+</html>
